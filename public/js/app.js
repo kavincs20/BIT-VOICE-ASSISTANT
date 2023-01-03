@@ -71,11 +71,11 @@ function speakThis(message)
 
     if(message.includes('hey') || message.includes('hello')) 
     {
-        const finalText = "Hello Boss";
+        const finalText = "Hello master";
         speech.text = finalText;
     }
     else if(message.includes('how are you')) {
-        const finalText = "I am fine boss tell me how can i help you";
+        const finalText = "I am fine master tell me how can i help you";
         speech.text = finalText;
     }
     else if(message.includes('what is your name')) {
